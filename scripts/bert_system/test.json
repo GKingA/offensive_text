@@ -1,0 +1,10 @@
+{
+    "HASOC_en19": "HASOC/normalized_hasoc2019_en_test-2919.tsv",
+    "HASOC_en20": "HASOC/normalized_hasoc_2020_en_test_new.tsv",
+    "HASOC_en21": "HASOC/normalized_en_Hasoc2021_test_task1.csv",
+    "HASOC_de19": "HASOC/normalized_hasoc_de_test_gold.tsv",
+    "HASOC_de20": "HASOC/normalized_hasoc_2020_de_test_new.tsv",
+    "GermEval18": "GermEval/normalized_germeval2018.test_.txt",
+    "GermEval19": "GermEval/normalized_germeval2019GoldLabelsSubtask1_2.txt",
+    "GermEval21": "GermEval/normalized_GermEval21_Toxic_TestData.csv"
+}

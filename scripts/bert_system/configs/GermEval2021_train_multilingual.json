@@ -1,0 +1,13 @@
+{
+    "data_path": "GermEval/normalized_GermEval21_Toxic_Train.tsv",
+    "model_type": "BaseBertModel",
+    "mode": "binary_categories",
+    "data_type": "facebook",
+    "load_model": false,
+    "model_path": "germeval2021_{}_multilingual",
+    "optimizer": "Adam",
+    "batch_size": 8,
+    "learning_rate": 1e-05,
+    "epochs": 10,
+    "bert_model": "bert-base-multilingual-cased"
+}
