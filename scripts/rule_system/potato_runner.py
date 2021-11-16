@@ -11,7 +11,7 @@ import json
 from read_data import read_csv
 
 
-toxic_or_not = {'NOT': 'OTHER', 'HOF': 'TOXIC'}
+toxic_or_not = {'NOT': 'OTHER', 'HOF': 'TOXIC', 'OTHER': 'OTHER', 'OFFENSE': 'TOXIC', 1: 'TOXIC', 0: 'OTHER'}
 label_dict = {'OTHER': 0, 'TOXIC': 1}
 
 

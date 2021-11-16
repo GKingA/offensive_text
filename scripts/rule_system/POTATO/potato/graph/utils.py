@@ -6,9 +6,9 @@ from itertools import chain
 import networkx as nx
 import penman as pn
 from networkx.algorithms.isomorphism import DiGraphMatcher
-from tuw_nlp.text.patterns.misc import (CHAR_REPLACEMENTS, MISC_REPLACEMENTS,
+from potato.text.patterns.misc import (CHAR_REPLACEMENTS, MISC_REPLACEMENTS,
                                         PUNCT_REPLACEMENTS)
-from tuw_nlp.text.utils import replace_emojis
+from potato.text.utils import replace_emojis
 
 dummy_isi_graph = '(dummy_0 / dummy_0)'
 dummy_tree = 'dummy(dummy)'

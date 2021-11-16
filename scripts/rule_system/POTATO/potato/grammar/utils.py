@@ -1,4 +1,4 @@
-from tuw_nlp.graph.utils import dummy_isi_graph, dummy_tree
+from potato.graph.utils import dummy_isi_graph, dummy_tree
 
 
 DUMMY_INPUTS = {

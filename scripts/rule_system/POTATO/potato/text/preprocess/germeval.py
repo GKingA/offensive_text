@@ -1,6 +1,6 @@
 import sys
 
-from tuw_nlp.text.utils import preprocess_tweet
+from potato.text.utils import preprocess_tweet
 
 
 def preprocess_germeval(tweet, keep_hashtag=True, keep_username=True):

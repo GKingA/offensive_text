@@ -7,9 +7,9 @@ from collections import defaultdict
 
 from dict_recursive_update import recursive_update
 
-from tuw_nlp.common.utils import ensure_dir
-from tuw_nlp.grammar.alto import get_rule_string, run_alto
-from tuw_nlp.grammar.utils import get_dummy_input
+from potato.common.utils import ensure_dir
+from potato.grammar.alto import get_rule_string, run_alto
+from potato.grammar.utils import get_dummy_input
 
 
 class IRTGCache():

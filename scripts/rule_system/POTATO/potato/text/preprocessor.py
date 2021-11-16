@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-from tuw_nlp.text.preprocess.germeval import preprocess_germeval
+from potato.text.preprocess.germeval import preprocess_germeval
 
 
 PREPROCESSOR_FUNCTIONS = {

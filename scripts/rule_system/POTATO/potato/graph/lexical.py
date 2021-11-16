@@ -2,8 +2,8 @@ import networkx as nx
 from networkx.convert import from_dict_of_dicts as fdd
 from networkx.convert import to_dict_of_dicts as tdd
 
-from tuw_nlp.common.vocabulary import Vocabulary
-from tuw_nlp.graph.utils import gen_subgraphs
+from potato.common.vocabulary import Vocabulary
+from potato.graph.utils import gen_subgraphs
 
 
 class LexGraphs():

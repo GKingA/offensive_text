@@ -3,8 +3,8 @@ import os
 
 import stanza
 
-from tuw_nlp.text import segmentation  # noqa
-from tuw_nlp.text.utils import load_parsed, save_parsed
+from potato.text import segmentation  # noqa
+from potato.text.utils import load_parsed, save_parsed
 
 
 class CustomStanzaPipeline():

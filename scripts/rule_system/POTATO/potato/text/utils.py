@@ -3,7 +3,7 @@ import json
 from stanza.models.common.doc import Document as StanzaDocument
 from stanza.utils.conll import CoNLL
 
-from tuw_nlp.text.patterns.misc import (
+from potato.text.patterns.misc import (
     EMOJI_PATT, TWITTER_USERNAME_PATT, TWITTER_HASHTAG_PATT)
 
 

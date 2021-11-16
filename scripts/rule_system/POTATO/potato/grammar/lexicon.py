@@ -1,6 +1,6 @@
 import os
 
-from tuw_nlp.text.patterns.misc import CHAR_REPLACEMENTS
+from potato.text.patterns.misc import CHAR_REPLACEMENTS
 
 
 class IRTGRuleLexicon():

@@ -1,8 +1,8 @@
 from stanza.models.common import doc
 from stanza.pipeline.processor import Processor, register_processor
 
-from tuw_nlp.text.patterns.de import ABBREV, MONTH
-from tuw_nlp.text.patterns.misc import CHAR_PATT
+from potato.text.patterns.de import ABBREV, MONTH
+from potato.text.patterns.misc import CHAR_PATT
 
 
 @register_processor("fix_ssplit")

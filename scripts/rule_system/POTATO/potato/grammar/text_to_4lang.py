@@ -6,13 +6,13 @@ import traceback
 import stanza
 from tqdm import tqdm
 
-from tuw_nlp.grammar.ud_fl import UD_FL
-from tuw_nlp.graph.fourlang import FourLang
-from tuw_nlp.graph.lexical import LexGraphs
-from tuw_nlp.graph.utils import graph_to_pn, pn_to_graph
-from tuw_nlp.text.dictionary import Dictionary
-from tuw_nlp.text.pipeline import CachedStanzaPipeline, CustomStanzaPipeline
-from tuw_nlp.text.preprocessor import Preprocessor
+from potato.grammar.ud_fl import UD_FL
+from potato.graph.fourlang import FourLang
+from potato.graph.lexical import LexGraphs
+from potato.graph.utils import graph_to_pn, pn_to_graph
+from potato.text.dictionary import Dictionary
+from potato.text.pipeline import CachedStanzaPipeline, CustomStanzaPipeline
+from potato.text.preprocessor import Preprocessor
 
 
 class TextTo4lang():
