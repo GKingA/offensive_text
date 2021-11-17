@@ -3,7 +3,7 @@ POTATO is a human-in-the-loop XAI framework for extracting and evaluating interp
 
 ## Built systems
 
-To get started with rule-systems we provide rule-based features prebuilt with POTATO on different datasets (e.g. our paper _Offensive text detection on English Twitter with deep learning models and rule-based systems_ for the HASOC2021 shared task). If you are interested in that, you can go under _features/_ for more info!
+To get started with rule-systems we provide rule-based features prebuilt with POTATO on different datasets.
 
 ## Usage
 
@@ -65,6 +65,7 @@ evaluator.match_features(df, rule_to_match)
 ```
 
 The function will return a dataframe with the matched instances:
+
 |    | Sentence                                                                         | Predicted label   | Matched rule                  |
 |---:|:---------------------------------------------------------------------------------|:------------------|:------------------------------|
 |  0 | fuck absolutely everything about today.                                          | HOF               | [['(u_1 / fuck)'], [], 'HOF'] |
@@ -91,6 +92,7 @@ evaluator.match_features(df, [[["(u_1 / fuck :obj (u_2 / everything))"], [], "HO
 ```
 
 This will only return one match instead of three:
+
 |    | Sentence                                                                         | Predicted label   | Matched rule                                          |
 |---:|:---------------------------------------------------------------------------------|:------------------|:------------------------------------------------------|
 |  0 | fuck absolutely everything about today.                                          | HOF               | [['(u_1 / fuck :obj (u_2 / everything))'], [], 'HOF'] |
@@ -267,6 +269,7 @@ python evaluate.py -t ud -f ../frontend/saved_features.json -d ../notebooks/val_
 ```
 
 The result will be a _csv_ file with the labels and the matched rules:
+
 |     | Sentence                                | Predicted label | Matched rule                          |     |
 | --- | --------------------------------------- | --------------- | ------------------------------------- | --- |
 | 0   | RT [USER]: ohhhh shit a [USER] [URL]    | HOF             | ['(u_48 / shit)']                     |     |
