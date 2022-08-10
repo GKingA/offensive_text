@@ -1,0 +1,88 @@
+\documentclass[sigconf,anonymous]{acmart}
+
+\begin{document}
+\begin{figure*}
+
+English HASOC 2021
+
+\begin{description}
+	\small
+	\item \textit{(fuck | asshole | whore | fucking | motherfucker | dick | bitch |
+		useless | fuck-off | dick | shit | wank | bullshit | penis |
+		bastard | shameless | fucker | piss-off | piss | clown)}
+	\item \textit{act~$\xrightarrow{prepagainst}$~country}
+	\item \textit{shame~$\xrightarrow{ARG1}$~(media | person | publication
+		| they | you | party | have | government)}
+	\item \textit{shame~$\xrightarrow{ARG0}$~(vulture | elect | I | media |
+		it | expose | you | have | obligate | support | nation | result |
+		tell | person | get | vote | possible | religious | bastard | this
+		| know | democracy | let | we | pull | and)}
+	\item \textit{wanker~$\xrightarrow{mod}$~(.*)}
+	\item \textit{embarrass~$\xrightarrow{ARG1}$~you}
+	\item \textit{person~$\xrightarrow{mod}$~horrible}
+	\item \textit{kill~$\xrightarrow{ARG1}$~person}
+\end{description}
+\bigskip
+
+English HASOC 2020
+
+\begin{description}
+	\small
+	\item \textit{(stupid | bitch | moron | hoe | damn | fuck | shit |
+		ass | fucking | animal)}
+	\item \textit{rape~$\xrightarrow{manner}$~(.*)}
+	\item \textit{rape~$\xrightarrow{ARG0}$~(.*)}
+	\item \textit{rape~$\xrightarrow{ARG1}$~(.*)}
+\end{description}
+\bigskip
+
+English HASOC 2019
+
+\begin{description}
+	\small
+	\item \textit{(fucking | ass | bastard | rape | FuckTrump | fuck | vagina |
+		dickhead | shithibbon | FatOrangeFuck | disgrace | shit)}
+	\item \textit{traitor~$\xrightarrow{ARG1}$~person}
+	\item \textit{lie~$\xrightarrow{ARG0}$~you}
+\end{description}
+\bigskip
+
+GermEval 2021
+
+\begin{description}
+	\small
+	\item \textit{(ARD | au{\ss}er | ??? | silly | motherfucker | apparent | !!!.* |
+		foolishness | framing | arrogant | lach | asozial | council | arsch |
+		bullshit)}
+	\item \textit{propaganda \& NOT (.*)~$\xrightarrow{mod}$~propaganda}
+	\item \textit{fact \& NOT (.*)~$\xleftarrow{mod}$~fact~$\xrightarrow{mod}$~(.*)}
+	\item \textit{genericconcept~$\xrightarrow{op2}$~and}
+	\item \textit{fl\"uchtlinge \& NOT (.*)~$\xrightarrow{ARG1}$~fl\"uchtlinge}
+	\item \textit{(.*)~$\xrightarrow{.*}$~hashtag.* \& NOT (.*)~$\xrightarrow{ARG.*}$~hashtag.*}
+	\item \textit{contrast~$\xleftarrow{op1}$~and~$\xrightarrow{mod}$~this}
+	\item \textit{interrogative~$\xleftarrow{mode}$~and~$\xrightarrow{mod}$~only}
+	\item \textit{(komm | willst | sell | heule | besch\"utzt | sch\"amen)~$\xrightarrow{ARG1}$~devour~$\xrightarrow{ARG1}$~you}
+	\item \textit{(normal | level | complacency | issue | l\"auft | brechen | money | live | mention | leave | wahlzettel | thank | read | eingerechnet | car | prefer | au{\ss}er | m\"ussen)~$\xrightarrow{polarity}$~$-$}
+\end{description}
+\bigskip
+
+German HASOC 2020
+
+\begin{description}
+	\small
+	\item \textit{(hurensohn | maul | fresse | porno | abschaum | anal | ficken |
+		fick)}
+	\item \textit{(m\"usste | neger | labern | dass | unerh\"ort | schei{\ss}e | kelbt | performt | silly)~$\xrightarrow{mod}$~schei{\ss}e}
+	\item \textit{(cause | w\"ahlen | richt | erzaehlt | say | muss)~$\xrightarrow{ARG1}$~schei{\ss}e}
+	\item \textit{and~$\xrightarrow{op1}$~schei{\ss}e}
+	\item \textit{(geblockt | ficken | write | t\"atscheln | strecken | k\"onnen | spritzt | hope | need | \#ff | use | gefickt)~$\xrightarrow{ARG1}$~arsch}
+	\item \textit{(kanacke | bekomm | star | lecken | thinspo | obacht | schickten | liebst | roxyred19589189 | pornos | cause | bluejeans | vergas | w\"urde | geiler | f\"urn | full | h\"ort | gefickt | fishnets | fisting | lutschen | geile | pr\"asentiert | herangehensweise | hauen | peach | hift)~$\xrightarrow{mod}$~arsch}
+	\item \textit{(grundeis | top | tail | genericconcept | verw\"ohnen | f\"ur)~$\xrightarrow{location}$~arsch}
+	\item \textit{arsch~$\xrightarrow{mod}$~(euch | patriots | community | sammer | shoutoutxobella | \#rt | certain | dein | bineuerboss | plague | sexy | evt | fick | nackten | total | geil | nen | molligekleinesie83 | milf | stromkasteriks | otherwise | person | ariiiish | holgerewald1 | pornos | s\"usser | den | verdammten | cam | bl\"oder | nix | genericconcept | privilegierten | meilenweit | w\"urde | geiler | ersma | dorne | verfickten | dir | \#kostenlos | andy93893217 | erz\"ahl | elektroger\"ate | GT | veganhure | prallen | real | herrnewstime | mizunowaverider | kings | few | geilen | in | einzelfallinfos | voll | sch\"on | pictimundi | gratis)}
+\end{description}
+
+    \caption{Rule systems over AMR graphs built using human-in-the-loop learning on 5
+    datasets}
+	\label{fig:rules}
+\end{figure*}
+\end{document}
