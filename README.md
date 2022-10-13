@@ -2,6 +2,8 @@
 
 ### Data normalization
 
+This project depends on https://pypi.org/project/emoji/ and https://pypi.org/project/clean-text/ for the preprocessing of the data.
+
 Normalise the list of files; train and test:
 ```
 python3 read_data.py 
