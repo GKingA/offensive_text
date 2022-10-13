@@ -25,6 +25,16 @@ For this project we used the following BERT models:
  - https://huggingface.co/bert-base-uncased, and 
  - https://huggingface.co/bert-base-multilingual-cased
 
+The optimal number of epochs for each model were the following:
+ - EN: 2,
+ - EN-multi: 2, 
+ - DE: 1, 
+ - DE-multi: 3, 
+ - DE-HASOC: 2, 
+ - DE-HASOC-multi: 8,
+ - GermEval: 6, 
+ - GermEval-multi: 4
+
 Change the data paths in the config files to direct 
 to the concatenated normalised path and the test.json
 to direct to the normalised test files.
