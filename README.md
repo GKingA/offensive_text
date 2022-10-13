@@ -50,7 +50,7 @@ to the above command.
 
 ## Rule system
 
-Find the rule systems as well as their performance under _scripts/rule_system_
+Find the rule systems under _scripts/rule_system_
 
 ## Results on the samples
 
