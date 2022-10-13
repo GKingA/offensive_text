@@ -19,6 +19,12 @@ python3 read_data.py
 ```
 
 ### Run models
+
+For this project we used the following BERT models: 
+ - https://deepset.ai/german-bert, 
+ - https://huggingface.co/bert-base-uncased, and 
+ - https://huggingface.co/bert-base-multilingual-cased
+
 Change the data paths in the config files to direct 
 to the concatenated normalised path and the test.json
 to direct to the normalised test files.
